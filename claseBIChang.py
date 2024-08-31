@@ -14,7 +14,7 @@ def determinar_presencia_tv(contador):
 def crear_csv_data_frame(df):
     df.to_csv('cleaned_netflix_titles.csv', index = False)
 
-#funcion principal
+# funcion principal
 def  cleaningNetflixData():
     data_frame = pd.read_csv(netflix_file_name)
     #pd.set_option('display.max_colwidth', None)
